@@ -41,9 +41,9 @@ app.get('/filteredimage', async (req: Request, res: Response) => {
   res.status(200).sendFile(filtered_image, () => {
     deleteLocalFiles([filtered_image])
   }
-  )
+  );
 }
-)
+);
 
   //! END @TODO1
   
